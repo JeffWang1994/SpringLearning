@@ -1,2 +1,10 @@
 # SpringLearning
-How to understand Spring? This is a note about the book, Spring IN Action. all the code is in the repository.
+  本仓库主要用于记录《Spring实战(第四版)》的书籍学习。
+  书籍非常好～，但是由于之前没有计算机基础，也没有时间耐心学习，因此需要记录学习思路才能好好看懂知识点。
+  
+  代码是手敲的，可能会出现bug，会及时修正～
+  各个章节的笔记也是手打的，可能会出现理解误区～
+  
+  主要是为了激励自己，引用一个好友的话：
+  >这些东西还是需要学习的。不学习日子过不去啊～
+  
