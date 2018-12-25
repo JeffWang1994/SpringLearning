@@ -10,14 +10,14 @@
   在没有DI的情况下，要想实现主类与依赖类之间的紧耦合，就需要在构造函数中，将依赖类作为输入引入到主类中。
   但是在有DI的情况下，在主类中只需要注入接口。由于在构造函数中注入的是接口，因此主类并没有和任何一个依赖类形成紧耦合。
   通过Spring的装配(Wiring)方法，将主类和依赖类组成松耦合。最常用的装配方法是XML配置。
-  <pre>
+  ```
     <bean id="knight" class="Part1.BraveKnight">
         <constructor-arg ref="quest" />
     </bean>
     <bean id="quest" class="Part1.SlayDragonQuest">
         <constructor-arg value="#{T(System).out}" />
     </bean>
-  </pre>
+  ```
   将BraveKnight类定义为knight bean，并声明knight bean有一个构造器输入，其输入是quest bean。再定义具体的实现类 SlayDragonQuest 定义为 quest bean，并声明bean有一个输入为 PrintStream。
   这样通过XML配置，就可以将实现类SlayDragonQuest和类BraveKnight实现松耦合。
 
@@ -27,6 +27,7 @@
   Q：那为什么不能直接在类中直接申明使用呢？
   A：这样就会使得类变得复杂，就不纯粹实现自己的功能了。
   因此我们希望能通过XML进行AOP配置。
+  ```
     <bean id="minstrel" class="Part1.Minstrel">
         <constructor-arg value="#{T(System).out}" />
     </bean>
@@ -37,6 +38,7 @@
             <aop:after pointcut-ref="embark" method="singAfterQuest"/>
         </aop:aspect>
     </aop:config>
+   ```
   首先将可重用的类申明为bean，同时定义一个aop:aspect，这个aspect的ref为可重用组件的bean。然后定义切点aop:pointcut，在什么时候切开。最后定义切开前后的行为：aop:before和aop:after。
 
 ## 模版
