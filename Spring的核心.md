@@ -10,12 +10,16 @@
   在没有DI的情况下，要想实现主类与依赖类之间的紧耦合，就需要在构造函数中，将依赖类作为输入引入到主类中。
   但是在有DI的情况下，在主类中只需要注入接口。由于在构造函数中注入的是接口，因此主类并没有和任何一个依赖类形成紧耦合。
   通过Spring的装配(Wiring)方法，将主类和依赖类组成松耦合。最常用的装配方法是XML配置。
+  <pre>
+  <code>
     <bean id="knight" class="Part1.BraveKnight">
         <constructor-arg ref="quest" />
     </bean>
     <bean id="quest" class="Part1.SlayDragonQuest">
         <constructor-arg value="#{T(System).out}" />
     </bean>
+  </code>
+  </pre>
   将BraveKnight类定义为knight bean，并声明knight bean有一个构造器输入，其输入是quest bean。再定义具体的实现类 SlayDragonQuest 定义为 quest bean，并声明bean有一个输入为 PrintStream。
   这样通过XML配置，就可以将实现类SlayDragonQuest和类BraveKnight实现松耦合。
 
