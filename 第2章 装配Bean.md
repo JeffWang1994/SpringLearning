@@ -1,10 +1,10 @@
 # 第2章 装配Bean
 
 ## 本章内容
-  声明bean
-  构造器注入和Setter方法注入
-  装配Bean
-  控制Bean的创建和销毁
+  声明bean  
+  构造器注入和Setter方法注入  
+  装配Bean  
+  控制Bean的创建和销毁  
 
 ## Spring配置的可选方案
   Spring的核心是Spring容器，而Spring容器负责创建应用程序中的bean并通过DI来协调这些对象之间的关系。  
