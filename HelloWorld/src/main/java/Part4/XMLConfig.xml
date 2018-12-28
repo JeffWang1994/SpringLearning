@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/spring-aop
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/apring-context ">
+    <context:component-scan base-package="Part4" />
+
+    <!-- 声明Audience2的自动化代理 -->
+    <aop:aspectj-autoproxy />
+    <bean class="Part4.Audience2" />
+
+    <!-- 将无注解的Audience3声明为切面 -->
+    <bean id="performance3" class="Part4.Audience3"/>
+    <aop:config>
+        <aop:aspect>
+            <aop:pointcut expression="execution(**Part4.Performance.perform(..))" />
+            <aop:before method="silenceCellPhones" pointcut-ref="performance3" />
+            <aop:before method="takeSeats" pointcut-ref="performance3" />
+            <aop:after-returning method="applause" pointcut-ref="performance3" />
+            <aop:after-throwing method="demandRefund" pointcut-ref="performance3" />
+        </aop:aspect>
+    </aop:config>
+
+    <!-- 声明AOP环绕通知 -->
+    <bean class="Part4.Audience4" id="audience4" />
+    <aop:config>
+        <aop:aspect ref="audience4">
+            <aop:pointcut expression="execution(**concert.Performance.perform(..))"/>
+            <aop:around method="watchPerformance" pointcut-ref="performance4" />
+        </aop:aspect>
+    </aop:config>
+
+</beans>

@@ -36,6 +36,13 @@
             <artifactId>system-rules</artifactId>
             <version>1.4.0</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.9.2</version>
+        </dependency>
     </dependencies>
 
 </project>
