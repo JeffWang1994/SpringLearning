@@ -36,3 +36,4 @@
     *使用<aop:aspectj-autoproxy />在xml里启动AspectJ自动代理
     *使用@Around("preformance()")来声明环绕通知方法
     *使用@DeclareParents(value="concert.Performance+", defaultImpl= DefaultEncoreable.class)来通过切面引入新方法
+这一章比较简单，主要是AOP的相关知识
