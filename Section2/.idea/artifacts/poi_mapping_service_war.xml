@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="poi-mapping-service:war">
+    <output-path>$USER_HOME$/poi-mapping/poi-mapping-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>poi-mapping-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="poi-mapping-service.war">
+      <element id="artifact" artifact-name="poi-mapping-service:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="poi-mapping-service:war exploded">
+    <output-path>$USER_HOME$/poi-mapping/poi-mapping-service/target/poi-mapping-service</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>poi-mapping-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="poi-mapping-service" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$USER_HOME$/poi-mapping/poi-mapping-service/target/poi-mapping-service/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="poi-mapping-service/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$USER_HOME$/poi-mapping" charset="UTF-8" />
+    <file url="file://$USER_HOME$/poi-mapping/poi-mapping-api" charset="UTF-8" />
+    <file url="file://$USER_HOME$/poi-mapping/poi-mapping-service" charset="UTF-8" />
+  </component>
 </project>

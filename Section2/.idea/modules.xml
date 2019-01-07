@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Section2.iml" filepath="$PROJECT_DIR$/Section2.iml" />
+      <module fileurl="file://$USER_HOME$/poi-mapping/poi-mapping.iml" filepath="$USER_HOME$/poi-mapping/poi-mapping.iml" />
+      <module fileurl="file://$USER_HOME$/poi-mapping/poi-mapping-api/poi-mapping-api.iml" filepath="$USER_HOME$/poi-mapping/poi-mapping-api/poi-mapping-api.iml" />
+      <module fileurl="file://$USER_HOME$/poi-mapping/poi-mapping-service/poi-mapping-service.iml" filepath="$USER_HOME$/poi-mapping/poi-mapping-service/poi-mapping-service.iml" />
     </modules>
   </component>
 </project>
