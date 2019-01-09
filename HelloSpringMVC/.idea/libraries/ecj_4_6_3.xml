@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="ecj-4.6.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ecj-4.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaspic-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsp-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
