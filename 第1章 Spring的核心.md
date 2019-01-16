@@ -20,6 +20,11 @@
   ```
   将BraveKnight类定义为knight bean，并声明knight bean有一个构造器输入，其输入是quest bean。再定义具体的实现类 SlayDragonQuest 定义为 quest bean，并声明bean有一个输入为 PrintStream。
   这样通过XML配置，就可以将实现类SlayDragonQuest和类BraveKnight实现松耦合。
+  
+  个人理解：
+    准备调料：SlayDragonQuest->quest bean
+    准备主食：BraveKnight->knight
+    那么Spring要做的事情是把调料加入主食中，通过构造器<constructor-arg>将quest bean 注入到 knight bean 中。
 
 ## AOP面向切面编程
   Q：为什么需要面向切面编程？
