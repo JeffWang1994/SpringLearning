@@ -22,7 +22,7 @@
     自动化装配分为两个角度：组件扫描(component scanning)和自动装配(autowiring)  
       组件扫描:Spring会自动发现应用上下文中所创建的bean。  
       自动装配:Spring自动满足bean之间的依赖。  
-    #### 组件扫描
+    组件扫描
     1. 使用@Component注解来表明该类会作为组件类，并告知Spring要为这个类创建bean。  
         ```
         @Component
@@ -49,7 +49,7 @@
        ```<context:component-scan base-package="Part2"/>```
     3. 在测试Java中，使用@ContextConfiguration注解，自动创建Spring应用上下文。    
         ```@ContextConfiguration(classes = CDPlayerConfig.class)```  
-    #### 自动装配  
+    自动装配  
     @Autowired注释标记在构造器或者方法名上，可以表明Spring在调用该方法时，会去匹配相应的bean，并且传入该方法。  
     ```
     @Component
@@ -65,7 +65,12 @@
     }
     ```
     当然如果没有匹配的bean，在应用上下文创建的时候，Spring会抛出一个异常。也可以不抛出，只需要设置```@Autowired(required=false)```。  
-    最后可以验证自动装配是否成功，具体代码见CDPlayerTest测试类。  
+    最后可以验证自动装配是否成功，具体代码见CDPlayerTest测试类。 
+    
+    个人理解：
+      准备调料：@Component，标上@Component的类都会成为bean。但是不是调料，要看方法上有没有@Autowired
+      准备主食：@Autowired，在构造器和方法上标上Autowired的，是主食bean。一般有构造器上@Autowired的，类名上都有@Component，因为要申明自己是主               食bean。
+      配方书写：在Config中，使用@ComponentScan，告诉Spring在哪里找调料和主食，怎么配自己看着办。
 
   ## 通过Java代码装配bean  
     自动化配置虽然好，但是加载第三方库中的组件时，还是需要手动配置的。使用Java进行配置时，有以下步骤：  
@@ -92,6 +97,10 @@
             return new CDPlayer(compactDisc);
         }
         ```
+      个人理解：
+        1. 准备调料：加上@Bean的都要成为Bean，至于是主食还是调料，看Config
+        2. 准备主食：同样也是加上@Bean就可以了，等着Config分配
+        3. 配方书写：在Config里，引用创建Bean，public 主食bean {return 配方bean};
 
   ## 通过XML配置bean
     XML配置会有三个步骤：
@@ -119,5 +128,10 @@
           class="soundsystem.CDPlayer"
           p:compactDisc-ref="compactDisc" />
     ```
+    
+    个人理解：
+      1. 准备配料: <bean id="配料bean" class="..." />
+      2. 准备主食: <bean id="主食bean" class="..." /> <constructor-arg ref="配料bean">
+  
     
 
