@@ -20,6 +20,5 @@
         1. 第一条路：客户端浏览器<-->DispatchServlet. -->传入<请求>, <--传出<视图>
         2. 第二条路：Controller<-->DispatchServlet. -->传入<模型>, <--传出<请求>
         3. 第三条路：视图解析器<-->DispatchServlet. -->传入<视图>, <--传出<模型>
-    Q：这样看就很清楚，所以DispatchServlet很重要呀～怎么实现呢？
-    A：继承 AbstractAnnotationConfig
-
+    
+    这一章最重要的是利用SpringMVC建立一个spittr聊天工具。

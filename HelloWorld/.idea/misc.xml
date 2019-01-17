@@ -7,6 +7,9 @@
       </list>
     </option>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="wangjiangfeng" />
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -24,6 +27,6 @@
     </entry>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+    <output url="file://$PROJECT_DIR$/classes" />
   </component>
 </project>

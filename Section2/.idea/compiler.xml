@@ -6,15 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="poi-mapping-api" />
-        <module name="poi-mapping-service" />
         <module name="Section2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="poi-mapping" target="1.5" />
-      <module name="poi-mapping-api" target="1.5" />
-      <module name="poi-mapping-service" target="1.5" />
       <module name="Section2" target="1.5" />
     </bytecodeTargetLevel>
   </component>

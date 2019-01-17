@@ -1,38 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Section2:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2900412-6bce-40d0-8378-4beef90b2bed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/poi_mapping_service_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/poi_mapping_service_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/.idea/dictionaries/wangjiangfeng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/src/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/src/test/SpringMVC/mvcController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WebTest2/web/WEB-INF/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Section2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Section2_war_exploded.xml" afterDir="false" />
+    <list default="true" id="d1cd4f2e-3c42-4c7d-a8fe-6be6561f0f61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HelloSpringMVC/src/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloSpringMVC/src/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloSpringMVC/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloSpringMVC/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/dictionaries/wangjiangfeng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_aop_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_beans_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_context_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_core_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_expression_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Section2_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/poi_mapping_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/poi_mapping_service_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Section2_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Section2_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/poi-mapping/poi-mapping-service/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Section2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Section2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第5章 构建Spring Web应用程序.md" beforeDir="false" afterPath="$PROJECT_DIR$/../第5章 构建Spring Web应用程序.md" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$USER_HOME$/poi-mapping/poi-mapping-service/target/" />
-    <ignored path="$USER_HOME$/poi-mapping/poi-mapping-api/target/" />
-    <ignored path="$USER_HOME$/poi-mapping/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +44,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/WebConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="390">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -53,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+            <state relative-caret-position="120">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,125 +75,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/SpittrWebAppInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/src/main/java/com/dianping/poi/mapping/shopmatchnew/core/PoiDedupEsRelatedMsgProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/src/main/java/com/dianping/poi/mapping/shopmatchnew/core/job/CleanMatchEntryJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="spring-beans.schema" />
-        <option value="Jsp File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>error</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/poi-mapping" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/spittr/config/SpittrWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/spittr/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/spittr/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/spittr/web/HomeController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/home.jsp" />
-        <option value="$PROJECT_DIR$/src/spittr/web/HomeControllerTest.java" />
-        <option value="$PROJECT_DIR$/profiles.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -197,8 +109,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="995" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,75 +126,42 @@
           <expand>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
+              <item name="Section2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopmatchnew" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Section2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="poi-mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="poi-mapping-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="poi" type="462c0819:PsiDirectoryNode" />
-              <item name="mapping" type="462c0819:PsiDirectoryNode" />
-              <item name="shopmatchnew" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,13 +174,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546584149153" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -315,61 +194,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PoiDedupEsRelatedMsgProcessor">
+  <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PoiDedupEsRelatedMsgProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dianping.poi.mapping.shopmatchnew.core.PoiDedupEsRelatedMsgProcessor" />
-      <module name="poi-mapping-service" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dianping.poi.mapping.shopmatchnew.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Section2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spittr.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spittr.web" />
-      <option name="MAIN_CLASS_NAME" value="spittr.web.HomeControllerTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeControllerTest.testHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Section2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spittr.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spittr.web" />
-      <option name="MAIN_CLASS_NAME" value="spittr.web.HomeControllerTest" />
-      <option name="METHOD_NAME" value="testHomePage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,18 +221,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Section2:war exploded">
+        <artifact name="unnamed">
           <settings>
-            <option name="CONTEXT_PATH" value="/Section2_war_exploded" />
+            <option name="CONTEXT_PATH" value="/unnamed" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Section2" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Section2_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -407,7 +239,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52454" />
+        <option name="DEBUG_PORT" value="64166" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -457,85 +289,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Section2:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="home.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/home.jsp" />
-      <deployment>
-        <artifact name="Section2:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Section2_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="home_jsp_(1)_Section2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Section2:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="home.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/home.jsp" />
-      <deployment>
-        <artifact name="Section2:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/Section2_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="home_jsp_Section2" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Section2:war exploded" />
+          <artifact name="unnamed" />
         </option>
       </method>
     </configuration>
@@ -548,92 +302,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.PoiDedupEsRelatedMsgProcessor" />
-      <item itemvalue="JUnit.HomeControllerTest" />
-      <item itemvalue="JUnit.HomeControllerTest.testHomePage" />
-      <item itemvalue="Tomcat Server.Tomcat8" />
-      <item itemvalue="Tomcat Server.home.jsp" />
-      <item itemvalue="Tomcat Server.home.jsp (1)" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.PoiDedupEsRelatedMsgProcessor" />
-        <item itemvalue="JUnit.HomeControllerTest" />
-        <item itemvalue="JUnit.HomeControllerTest.testHomePage" />
-        <item itemvalue="Tomcat Server.home.jsp (1)" />
-        <item itemvalue="Tomcat Server.home.jsp" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2900412-6bce-40d0-8378-4beef90b2bed" name="Default Changelist" comment="" />
-      <created>1545980948985</created>
+      <changelist id="d1cd4f2e-3c42-4c7d-a8fe-6be6561f0f61" name="Default Changelist" comment="" />
+      <created>1546934647523</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1545980948985</updated>
-      <workItem from="1545981124390" duration="7921000" />
-      <workItem from="1546051124060" duration="424000" />
-      <workItem from="1546071884848" duration="182000" />
-      <workItem from="1546395245934" duration="435000" />
-      <workItem from="1546578568702" duration="333000" />
-      <workItem from="1546584047776" duration="131000" />
-      <workItem from="1546825736891" duration="49000" />
+      <updated>1546934647523</updated>
+      <workItem from="1546934651184" duration="543000" />
+      <workItem from="1547444010024" duration="342000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="HomeControllerTest - 2018.12.28 at 16h 59m 25s.xml">
-      <configuration name="HomeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomeControllerTest - 2018.12.28 at 17h 04m 20s.xml">
-      <configuration name="HomeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomeControllerTest - 2018.12.28 at 17h 08m 43s.xml">
-      <configuration name="HomeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomeControllerTest_testHomePage - 2019.01.02 at 10h 20m 19s.xml">
-      <configuration name="HomeControllerTest.testHomePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HomeControllerTest - 2019.01.02 at 10h 20m 28s.xml">
-      <configuration name="HomeControllerTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9475000" />
+    <option name="totallyTimeSpent" value="885000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68955654" weight="0.47831327" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3297587" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3104435" side_tool="true" weight="0.96385545" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49570817" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -647,178 +362,39 @@
       <window_info anchor="right" id="CDI" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.68955654" visible="true" weight="0.96385545" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.3104435" side_tool="true" weight="0.96385545" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49570817" weight="0.32891566" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="JSF" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="CDI" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings_1.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Section2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/org/springframework/web/SpringServletContainerInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="45">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/RootConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="116" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/SpittrWebAppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/src/main/java/com/dianping/poi/mapping/shopmatchnew/core/PoiDedupEsRelatedMsgProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/src/main/java/com/dianping/poi/mapping/shopmatchnew/core/job/CleanMatchEntryJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/web/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/poi-mapping/poi-mapping-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -828,7 +404,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Section2:war exploded</last-edited>
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -876,12 +452,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>poi-mapping</last-edited>
+          <last-edited>Section2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -901,7 +476,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring MVC-4.3.18.RELEASE</last-edited>
+          <last-edited>Maven: com.github.stefanbirkner:system-rules:1.4.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
