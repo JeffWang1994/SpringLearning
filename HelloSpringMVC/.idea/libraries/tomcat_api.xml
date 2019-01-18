@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="tomcat-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-util-scan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/websocket-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
