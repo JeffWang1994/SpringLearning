@@ -20,7 +20,14 @@
         1. 第一条路：客户端浏览器<-->DispatchServlet. -->传入<请求>, <--传出<视图>
         2. 第二条路：Controller<-->DispatchServlet. -->传入<模型>, <--传出<请求>
         3. 第三条路：视图解析器<-->DispatchServlet. -->传入<视图>, <--传出<模型>
+
 =======
+## Sorry,这么就没有更新，因为这本书中的Spittr，我一直没有跑通～编译成功，但是无法登陆localhost:8080/spittr/
+>>>>>>> 13ce8387fbc87cf3567ec9a00ef2b9149f4ba161
+
+=======
+## 2019-1-18 我终于跑通了，也找到了问题所在。非常愚蠢的错误。使用intelliJ这个非常智能的IDE会自动帮你配置好了web.xml。而该xml配置与WebApplicationInitial中如果不同的话，会出现OneorMoreListener的错误。总之跑通了...
+
 ### 个人理解
 Q：如何搭建SpringMVC？
 A：搭建SpringMVC就好像搭桥连接三个岛。
@@ -51,7 +58,28 @@ A：搭建SpringMVC就好像搭桥连接三个岛。
 4. 建立前端的岛---视图JSP.
     正常编写你想要的视图页面。
 
+## 输出模型数据
+1. 定义模型数据类
+    Spittle类: 包含消息内容、时间戳和位置信息。
+2. 定义一个数据访问的Repository。这个功能是获取Spittle列表。
+    可以调用SpittleRepostory接口，实现一个简单的类。
+3. 定义SpittleController
+   1. 类上声明@Controller
+   2. 构造器上声明@Autowired。注入SpittleRepository。
+   3. spittles方法上声明@RequestMapping("/spittles")。在方法中把spittle添加到模型中。
+   4. return "spittles"返回视图名
+
+## 输入请求数据
+从客户端传输到服务器只有三种数据类型：
+    1. 查询参数(Query Parameter)
+    2. 表单参数(Form Parameter)
+    3. 路径变量(Path Variable)
+### 查询参数
+任务内容：Spittle分页。下一页的功能；前往指定页的功能。
+需要传输的参数为：before参数; count参数
+1. 
 
 
-## Sorry,这么就没有更新，因为这本书中的Spittr，我一直没有跑通～编译成功，但是无法登陆localhost:8080/spittr/
->>>>>>> 13ce8387fbc87cf3567ec9a00ef2b9149f4ba161
+
+
+
