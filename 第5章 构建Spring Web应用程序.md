@@ -22,15 +22,35 @@
         3. 第三条路：视图解析器<-->DispatchServlet. -->传入<视图>, <--传出<模型>
 =======
 ### 个人理解
-    Q：如何搭建SpringMVC？
-    A：搭建SpringMVC就好像搭桥连接三个岛。
-    首先要建立好中枢连接点, DispatcherServlet.
+Q：如何搭建SpringMVC？
+A：搭建SpringMVC就好像搭桥连接三个岛。
+1. 要建立好中枢连接点, DispatcherServlet.
         在WebAppInitializer.java中，设置getServletMappings()，这是将URL路径(比如"/","/login")映射到DispatcerServlet上。
-    然后，配置两套配置类。
+        然后，配置两套配置类。
         getRootConfigClasses()和getServletConfigClasses()。
-        RootConfig用于配置ContextLoaderListener创建的上下文的Bean。
-        ServletConfig用于配置DispatcherServlet应用上下文的Bean。
-        
+        RootConfig用于配置ContextLoaderListener创建的上下文中的用于驱动中间层和数据层的Bean。
+        ServletConfig用于配置DispatcherServlet应用上下文中的Bean。
+2. 配置WebConfig---其中包含视图解析器.
+    1. 启动Spring MVC @Configuration + @EnableWebMvc
+    2. 启动组件扫描 @ComponentScan("spittr.web")
+    3. 配置JSP视图解析器 InternalResourceViewResolver()
+        1. resolver.setPrefix("JSP在哪个文件夹下")
+        2. resolver.setSuffix(".jsp")
+       3. setExposeContextBeansAsAttributes(ture)
+       4. return resolver
+    4. 配置静态资源的处理 DefaultServletHandlerCondigurer
+        对静态资源的请求会转发到Servlet容器的默认Servlet上。
+    配置RootConfig
+        启动组件扫描 @Configuration + @ComponentScan(...)
+        这个以后再说，这里不是重点。
+3. 建立后端的岛——控制器Controller.
+    > 控制器只是方法上加了@RequestMapping注解的类。
+    所以最简单的控制器编写就是POJO，最后在类和方法上加注解:
+        @Controller
+        @RequestMapping(value="/", method=GET) 
+4. 建立前端的岛---视图JSP.
+    正常编写你想要的视图页面。
+
 
 
 ## Sorry,这么就没有更新，因为这本书中的Spittr，我一直没有跑通～编译成功，但是无法登陆localhost:8080/spittr/
