@@ -21,11 +21,17 @@
         2. 第二条路：Controller<-->DispatchServlet. -->传入<模型>, <--传出<请求>
         3. 第三条路：视图解析器<-->DispatchServlet. -->传入<视图>, <--传出<模型>
 =======
-    Q：这样看就很清楚，所以DispatchServlet很重要呀～怎么实现呢？
-    A：继承 AbstractAnnotationConfigDispatcherServletInitializer. 
-        protected String[] getServletMappings(){
-          
-        }
+### 个人理解
+    Q：如何搭建SpringMVC？
+    A：搭建SpringMVC就好像搭桥连接三个岛。
+    首先要建立好中枢连接点, DispatcherServlet.
+        在WebAppInitializer.java中，设置getServletMappings()，这是将URL路径(比如"/","/login")映射到DispatcerServlet上。
+    然后，配置两套配置类。
+        getRootConfigClasses()和getServletConfigClasses()。
+        RootConfig用于配置ContextLoaderListener创建的上下文的Bean。
+        ServletConfig用于配置DispatcherServlet应用上下文的Bean。
+        
+
 
 ## Sorry,这么就没有更新，因为这本书中的Spittr，我一直没有跑通～编译成功，但是无法登陆localhost:8080/spittr/
 >>>>>>> 13ce8387fbc87cf3567ec9a00ef2b9149f4ba161
