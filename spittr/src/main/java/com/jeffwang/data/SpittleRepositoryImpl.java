@@ -17,4 +17,8 @@ public class SpittleRepositoryImpl implements SpittleRepository{
         }
         return spittlelist;
     }
+
+    public Spittle findOne (long spittleId){
+        return new Spittle("Spittle "+ spittleId, new Date());
+    }
 }

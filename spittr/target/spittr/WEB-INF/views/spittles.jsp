@@ -12,7 +12,6 @@
     <title>Spittles</title>
 </head>
 <body>
-    <h1>Spittles历史记录</h1>
     <div class="listTitle">
         <h1>Recent Spittles</h1>
         <ul class="spittleList">
