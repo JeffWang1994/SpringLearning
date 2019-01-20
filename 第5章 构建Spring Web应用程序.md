@@ -29,55 +29,58 @@
 ## 2019-1-18 我终于跑通了，也找到了问题所在。非常愚蠢的错误。使用intelliJ这个非常智能的IDE会自动帮你配置好了web.xml。而该xml配置与WebApplicationInitial中如果不同的话，会出现OneorMoreListener的错误。总之跑通了...
 
 ### 个人理解
-Q：如何搭建SpringMVC？
-A：搭建SpringMVC就好像搭桥连接三个岛。
-1. 要建立好中枢连接点, DispatcherServlet.
+    Q：如何搭建SpringMVC？
+    A：搭建SpringMVC就好像搭桥连接三个岛。
+    1. 要建立好中枢连接点, DispatcherServlet.
         在WebAppInitializer.java中，设置getServletMappings()，这是将URL路径(比如"/","/login")映射到DispatcerServlet上。
         然后，配置两套配置类。
         getRootConfigClasses()和getServletConfigClasses()。
         RootConfig用于配置ContextLoaderListener创建的上下文中的用于驱动中间层和数据层的Bean。
         ServletConfig用于配置DispatcherServlet应用上下文中的Bean。
-2. 配置WebConfig---其中包含视图解析器.
+1. 配置WebConfig---其中包含视图解析器.
     1. 启动Spring MVC @Configuration + @EnableWebMvc
     2. 启动组件扫描 @ComponentScan("spittr.web")
     3. 配置JSP视图解析器 InternalResourceViewResolver()
-        1. resolver.setPrefix("JSP在哪个文件夹下")
-        2. resolver.setSuffix(".jsp")
-       3. setExposeContextBeansAsAttributes(ture)
-       4. return resolver
+           1. resolver.setPrefix("JSP在哪个文件夹下")
+           2. resolver.setSuffix(".jsp")
+           3. setExposeContextBeansAsAttributes(ture)
+           4. return resolver
     4. 配置静态资源的处理 DefaultServletHandlerCondigurer
         对静态资源的请求会转发到Servlet容器的默认Servlet上。
     配置RootConfig
         启动组件扫描 @Configuration + @ComponentScan(...)
         这个以后再说，这里不是重点。
-3. 建立后端的岛——控制器Controller.
+   1. 建立后端的岛——控制器Controller.
     > 控制器只是方法上加了@RequestMapping注解的类。
-    所以最简单的控制器编写就是POJO，最后在类和方法上加注解:
-        @Controller
-        @RequestMapping(value="/", method=GET) 
-4. 建立前端的岛---视图JSP.
-    正常编写你想要的视图页面。
+        所以最简单的控制器编写就是POJO，最后在类和方法上加注解:
+            @Controller
+            @RequestMapping(value="/", method=GET) 
+   2. 建立前端的岛---视图JSP.
+        正常编写你想要的视图页面。
 
 ## 输出模型数据
-1. 定义模型数据类
+   1. 定义模型数据类
     Spittle类: 包含消息内容、时间戳和位置信息。
-2. 定义一个数据访问的Repository。这个功能是获取Spittle列表。
+   2. 定义一个数据访问的Repository。这个功能是获取Spittle列表。
     可以调用SpittleRepostory接口，实现一个简单的类。
-3. 定义SpittleController
-   1. 类上声明@Controller
-   2. 构造器上声明@Autowired。注入SpittleRepository。
-   3. spittles方法上声明@RequestMapping("/spittles")。在方法中把spittle添加到模型中。
-   4. return "spittles"返回视图名
+   3. 定义SpittleController
+      1. 类上声明@Controller
+      2. 构造器上声明@Autowired。注入SpittleRepository。
+      3. spittles方法上声明@RequestMapping("/spittles")。在方法中把spittle添加到模型中。
+      4. return "spittles"返回视图名
 
 ## 输入请求数据
-从客户端传输到服务器只有三种数据类型：
-    1. 查询参数(Query Parameter)
-    2. 表单参数(Form Parameter)
-    3. 路径变量(Path Variable)
+    从客户端传输到服务器只有三种数据类型：
+       1. 查询参数(Query Parameter)
+       2. 表单参数(Form Parameter)
+       3. 路径变量(Path Variable)
 ### 查询参数
-任务内容：Spittle分页。下一页的功能；前往指定页的功能。
-需要传输的参数为：before参数; count参数
-1. 
+    任务内容：Spittle分页。下一页的功能；前往指定页的功能。
+    需要传输的参数为：before参数; count参数
+    1. 在Controller里，添加新的方法。@RequestMapping(...)
+    2. 该方法的输入参数加入从客户端传入的参数并标记上@RequestParam(value="",defaultValue=..) long max,
+### lu'jing
+
 
 
 
