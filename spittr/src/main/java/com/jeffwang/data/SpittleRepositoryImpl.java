@@ -1,7 +1,9 @@
 package com.jeffwang.data;
 
+import com.jeffwang.Spitter;
 import com.jeffwang.Spittle;
 import org.springframework.stereotype.Component;
+import sun.security.provider.ConfigFile;
 
 import java.util.Date;
 import java.util.ArrayList;
@@ -18,7 +20,10 @@ public class SpittleRepositoryImpl implements SpittleRepository{
         return spittlelist;
     }
 
-    public Spittle findOne (long spittleId){
-        return new Spittle("Spittle "+ spittleId, new Date());
+    public List<Spittle> findOne (long spittleId){
+        List<Spittle> OneSpittle = new ArrayList<Spittle>();
+        OneSpittle.add(new Spittle("Spittle "+ spittleId, new Date()));
+        return OneSpittle;
     }
+
 }

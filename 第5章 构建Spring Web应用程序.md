@@ -79,8 +79,35 @@
     需要传输的参数为：before参数; count参数
     1. 在Controller里，添加新的方法。@RequestMapping(...)
     2. 该方法的输入参数加入从客户端传入的参数并标记上@RequestParam(value="",defaultValue=..) long max,
-### lu'jing
+### 路径变量
+    任务内容：根据给定的ID来展现某一个Spittle记录。
+    1. 需要将SpittleController中spittle方法的输入参数中加入
+        @PathVariable("SpittleID") long spittleID
+        Model model
+    2. 在根据传入的spittleID去spittleRepository中查找相应的spittle，并添加到Model中
+    3. 最后将model发送到指定的jsp中。
+        return "spittle"
+### 表单参数
+    任务内容：提供用户注册页面，传入用户注册信息，并根据用户名返回用户注册信息。
+    这里涉及3件事情。一个一个来。
+    1. 提供用户注册页面，大约等同于home页面的制作。
+    2. 传入用户注册信息
+       1. 由于是传入，就不是GET了，而是POST。
+            @RequestMapping(value="/register", method=POST)
+       2. 调用spitterRepository.save()方法，将注册信息保存起来。
+       3. 重定向指定页面: return "redirect:/spitter/"+spitter.getUsername();
+    3. 返回用户注册信息
+       1. 由于是传出，就应该是GET
+            @RequestMapping(value="/{username}", method=GET)
+       2. 在spitterRepository中根据username查找出刚存入的注册用户信息。
+       3. 将model发送到指定的jsp中。
+            return "profile"
+### 传入参数校验
+    为了校验用户在填写表单时的参数正确性，spring给出一套简单的校验注释。
+    只需要在需要校验的变量上标上@NotNull,@Size等等就可以进行校验。
+    具体可以看书上表5.1
 
+# 这一章就结束了。总的来说，书中只描述了部分代码，要想实验spittr，需要自己补充。实现了Spittr的基本功能，查询显示库内的spittle信息，用户注册和查询用户信息等功能，作为一个好开头吧～
 
 
 

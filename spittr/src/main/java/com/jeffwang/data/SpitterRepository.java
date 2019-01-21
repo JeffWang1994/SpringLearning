@@ -1,4 +1,12 @@
 package com.jeffwang.data;
 
-public class SpitterRepository {
+import com.jeffwang.Spitter;
+
+import java.util.List;
+
+public interface SpitterRepository {
+
+    List<Spitter> save (Spitter spitter);
+    Spitter findByUsername(String username);
+
 }
