@@ -11,6 +11,7 @@
           href="<s:url value="/resources/style.css"/> ">
 </head>
 <body>
+
     <div id="header">
         <t:insertAttribute name="header" />
     </div>

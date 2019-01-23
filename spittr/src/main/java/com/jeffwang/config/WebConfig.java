@@ -10,9 +10,9 @@ import org.springframework.web.servlet.config.annotation.DefaultServletHandlerCo
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.tiles2.TilesConfigurer;
 import org.springframework.web.servlet.view.tiles2.TilesViewResolver;
+
 
 @Configuration
 @ComponentScan(basePackages = "com.jeffwang")
@@ -22,7 +22,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     /**
      * 配置JSP视图解析器
      * @return
-     */
+
     @Bean
     public ViewResolver getViewResolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -30,7 +30,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
         resolver.setSuffix(".jsp");
         resolver.setExposeContextBeansAsAttributes(true);
         return resolver;
-    }
+    }*/
 
     /**
      * 配置国际化信息源
@@ -60,6 +60,34 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     public ViewResolver viewResolver(){
         return new TilesViewResolver();
     }
+
+    /**
+     * 配置Thymeleaf
+     * @param templateEngine
+     * @return
+
+    @Bean
+    public ViewResolver viewResolver(SpringTemplateEngine templateEngine){
+        ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
+        viewResolver.setTemplateEngine(templateEngine);
+        return viewResolver;
+    }
+
+    @Bean
+    public SpringTemplateEngine templateEngine(ServletContextTemplateResolver templateResolver){
+        SpringTemplateEngine templateEngine = new SpringTemplateEngine();
+        templateEngine.setTemplateResolver(templateResolver);
+        return templateEngine
+    }
+
+    @Bean
+    public ServletContextTemplateResolver templateResolver(){
+        ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver();
+        templateResolver.setPrefix("/WEB-INF/templates");
+        templateResolver.setSuffix(".html");
+        templateResolver.setTemplateMode("HTML5");
+        return templateResolver;
+    } */
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer){
