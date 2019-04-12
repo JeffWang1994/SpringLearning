@@ -25,7 +25,7 @@
     </form>
     -->
 
-    <sf:form method="post" commandName="spitter">
+    <sf:form method="post">
         <sf:errors path="*" element="div" cssClass="errors"/>
         <sf:label path="firstName"
                   cssErrorClass="error">First Name</sf:label>
