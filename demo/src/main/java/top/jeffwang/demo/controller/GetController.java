@@ -3,12 +3,12 @@ package top.jeffwang.demo.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-import top.jeffwang.demo.domain.ServerSetting;
 import top.jeffwang.demo.domain.User;
+
+import javax.servlet.http.HttpServletRequest;
 
 @RestController
 public class GetController {
@@ -92,17 +92,19 @@ public class GetController {
         return params;
     }
 
-    /**
-     * 功能测试：通过request来提取参数
-     * @param request
-     * @return
-     */
-
-    @Autowired
-    private ServerSetting serverSetting;
-
-    @GetMapping("/v1/test_properties")
-    public Object testProperties(){
-        return serverSetting;
+    @GetMapping(value = "/api/v1/account")
+    public Object account(){
+        params.put("name", "jeffwang");
+        return params;
     }
+
+    @GetMapping("/v1/test_request")
+    public Object testRequest(HttpServletRequest request){
+        params.clear();
+        String id = request.getParameter("id");
+        System.out.println("Controller处理中...");
+        params.put("id", id);
+        return params;
+    }
+
 }
