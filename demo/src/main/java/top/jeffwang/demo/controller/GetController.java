@@ -1,13 +1,10 @@
 package top.jeffwang.demo.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-import top.jeffwang.demo.domain.ServerSetting;
 import top.jeffwang.demo.domain.User;
 
 @RestController
@@ -92,17 +89,4 @@ public class GetController {
         return params;
     }
 
-    /**
-     * 功能测试：通过request来提取参数
-     * @param request
-     * @return
-     */
-
-    @Autowired
-    private ServerSetting serverSetting;
-
-    @GetMapping("/v1/test_properties")
-    public Object testProperties(){
-        return serverSetting;
-    }
 }
