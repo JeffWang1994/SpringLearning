@@ -10,9 +10,10 @@ import java.util.Map;
 
 @RestController
 public class SampleController {
-    @RequestMapping("/")
-    String home(){
-        return "Hello World!";
+
+    @RequestMapping("/test/home")
+    public String home(){
+        return "www.jeffwang.top";
     }
 
     @RequestMapping("/test")

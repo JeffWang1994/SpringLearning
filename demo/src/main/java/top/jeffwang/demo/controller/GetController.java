@@ -7,6 +7,8 @@ import java.util.Map;
 
 import top.jeffwang.demo.domain.User;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RestController
 public class GetController {
     private Map<String, Object> params = new HashMap<>();
@@ -85,6 +87,21 @@ public class GetController {
     public Object getHeader(@RequestHeader("access_token") String accessToken, String id){
         params.clear();
         params.put("access_token", accessToken);
+        params.put("id", id);
+        return params;
+    }
+
+    @GetMapping(value = "/api/v1/account")
+    public Object account(){
+        params.put("name", "jeffwang");
+        return params;
+    }
+
+    @GetMapping("/v1/test_request")
+    public Object testRequest(HttpServletRequest request){
+        params.clear();
+        String id = request.getParameter("id");
+        System.out.println("Controller处理中...");
         params.put("id", id);
         return params;
     }
